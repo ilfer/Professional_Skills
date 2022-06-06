@@ -1,3 +1,3 @@
-# Professionele Skills
+# Professional Skills
 
-Dit repository bevat bewijsstukken voor Professionele Skills.
+Dit repository bevat bewijsstukken voor Professional Skills.
