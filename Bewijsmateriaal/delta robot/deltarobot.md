@@ -4,8 +4,8 @@ doelstellingen in ruil voor professional skills:
 
 1. [LabVIEW code op CompactRIO zetten (BEHAALD)](#1)
 2. [LabVIEW ZMQ](#2)
-  - 2.1 [Home via API](#2.1)
-  - 2.2 [MOVE (X, Y, Z) via API](#2.2)
+    - 2.1 [Home via API](#2.1)
+    - 2.2 [MOVE (X, Y, Z) via API](#2.2)
 3. [Bij opstarten automatisch laten homen (BEHAALD)](#3)
 
 ##
@@ -19,6 +19,8 @@ Wanneer deze stap correct is gedaan en het programma afgespeeld wordt zien we en
 [![explorer.png](https://i.postimg.cc/W14MJZkH/explorer.png)](https://postimg.cc/Vd3Sxd4q)
 
 #### 2. LabVIEW ZMQ <a name="2"></a>
+##### 2.1 Home via API <a name="2.1"></a>
+##### 2.2 MOVE (X, Y, Z) via API <a name="2.2"></a>
 
 #### 3. Bij opstarten automatisch laten homen <a name="3"></a>
 
@@ -33,5 +35,7 @@ In properties klikken we op 'Source Files' en zetten we de Main onder 'Startup V
 Hierna klikken we met de rechtermuisknop op 'My Real-Time Application' en klikken we op Deploy. Vervolgens met hetzelfde methode op 'Run as startup'.
 
 [![deploy.png](https://i.postimg.cc/9MsNk345/deploy.png)](https://postimg.cc/YGf34sfb)
+
+Hierop kunnen we de CompactRio herstarten en testen of het applicatie werkt.
 
 zomervakantie: 18/07, 20/07, 22/07 => +- 15u => samenwerking met Cas Truyers
