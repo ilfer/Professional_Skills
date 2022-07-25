@@ -22,12 +22,16 @@ Wanneer deze stap correct is gedaan en het programma afgespeeld wordt zien we en
 
 #### 3. Bij opstarten automatisch laten homen <a name="3"></a>
 
-Om een programma autonoom via de CompactRIO af te spelen hebben we een applicatie gegeneerd. Deze applicatie is vergelijkbaar met een EXE. Maar binnen LabVIEW maken we een Real-Time application aan (RTEXE). Dit doen we door op de rechtermuisknop te klikken via 'Build Specifications'. 
+Om een programma autonoom via de CompactRIO af te spelen hebben we een applicatie gegeneerd. Deze applicatie is vergelijkbaar met een EXE. Maar binnen LabVIEW maken we een Real-Time application aan (RTEXE). Dit doen we door met de rechtermuisknop te klikken op 'Build Specifications'. 
 
 [![rtexel.png](https://i.postimg.cc/jqWK2ttT/rtexel.png)](https://postimg.cc/w3dnbK14)
 
 In properties klikken we op 'Source Files' en zetten we de Main onder 'Startup VIs' en de rest van de VIs onder 'Always Included'. Verder kan destination path nagekeken/aangepast worden. Wanneer deze twee hoofdzaken gereed zijn klikken we onderaan op 'Build'.
 
 [![sourcefiles.png](https://i.postimg.cc/4xHBH2nm/sourcefiles.png)](https://postimg.cc/gxdvfDVW)
+
+Hierna klikken we met de rechtermuisknop op 'My Real-Time Application' en klikken we op Deploy. Vervolgens met hetzelfde methode op 'Run as startup'.
+
+[![deploy.png](https://i.postimg.cc/9MsNk345/deploy.png)](https://postimg.cc/YGf34sfb)
 
 zomervakantie: 18/07, 20/07, 22/07 => +- 15u => samenwerking met Cas Truyers
