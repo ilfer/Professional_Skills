@@ -12,7 +12,7 @@ doelstellingen in ruil voor professional skills:
 
 #### 1. LabVIEW code op CompactRIO zetten <a name="1"></a>
 
-Om de LabVIEW code niet op de computer maar wel op de CompactRIO te laten werken moeten we de VI's verplaatsen/kopiëren in de project explorer. De VI's die onder 'My computer' staan worden standaard op de computer gedraaid. Om de programma's op de CompactRIO te laten werken kopiëren we de VI's die onder 'My computer' staan naar onder het systeem 'NI-cRIO-9068-198D84E' die we gebruiken.
+Om de LabVIEW code niet op de computer maar wel op de CompactRIO te laten werken moeten we de VIs verplaatsen/kopiëren in de project explorer. De VIs die onder 'My computer' staan worden standaard op de computer gedraaid. Om de programma's op de CompactRIO te laten werken kopiëren we de VIs die onder 'My computer' staan naar onder het systeem 'NI-cRIO-9068-198D84E' die we gebruiken.
 
 Wanneer deze stap correct is gedaan en het programma afgespeeld wordt zien we enkel de block diagram waarop er handeling kunnen uitgevoerd worden. De tweede venster (front panel) in LabVIEW wordt verdwenen.
 
@@ -21,5 +21,13 @@ Wanneer deze stap correct is gedaan en het programma afgespeeld wordt zien we en
 #### 2. LabVIEW ZMQ <a name="2"></a>
 
 #### 3. Bij opstarten automatisch laten homen <a name="3"></a>
+
+Om een programma autonoom via de CompactRIO af te spelen hebben we een applicatie gegeneerd. Deze applicatie is vergelijkbaar met een EXE. Maar binnen LabVIEW maken we een Real-Time application aan (RTEXE). Dit doen we door op de rechtermuisknop te klikken via 'Build Specifications'. 
+
+[![rtexel.png](https://i.postimg.cc/jqWK2ttT/rtexel.png)](https://postimg.cc/w3dnbK14)
+
+In properties klikken we op 'Source Files' en zetten we de Main onder 'Startup VIs' en de rest van de VIs onder 'Always Included'. Verder kan destination path nagekeken/aangepast worden. Wanneer deze twee hoofdzaken gereed zijn klikken we onderaan op 'Build'.
+
+[![sourcefiles.png](https://i.postimg.cc/4xHBH2nm/sourcefiles.png)](https://postimg.cc/gxdvfDVW)
 
 zomervakantie: 18/07, 20/07, 22/07 => +- 15u => samenwerking met Cas Truyers
