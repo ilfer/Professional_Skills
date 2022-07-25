@@ -38,4 +38,6 @@ Hierna klikken we met de rechtermuisknop op 'My Real-Time Application' en klikke
 
 Hierop kunnen we de CompactRio herstarten en testen of het applicatie werkt.
 
-zomervakantie: 18/07, 20/07, 22/07 => +- 15u => samenwerking met Cas Truyers
+<br />
+
+*zomervakantie: 18/07, 20/07, 22/07 => +- 15u => samenwerking met Cas Truyers*
